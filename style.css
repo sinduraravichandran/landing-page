@@ -6,8 +6,8 @@
 }
 
 .img {
-    width: 100px;
-    height: 75px;
+    width: 150px;
+    height: 130px;
 }
 
 #main-img {
@@ -64,6 +64,15 @@ header p {
 
 .figures {
     display: flex;
+    gap: 10px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    flex-grow: 0;
 }
 
 h3 {
@@ -103,7 +112,22 @@ button {
     margin: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 30px 60px;
+    border-radius: 8px;
+    gap: 80px;
+}
+
+.call-to-action {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sign-up {
+    font-size: 12px;
+}
+
+.sign-up-button {
+    flex: 0 0 100px;
 }
 
 footer {
@@ -112,6 +136,7 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
 
 
 
